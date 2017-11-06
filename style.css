@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+body{
+	background:linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),url(https://i.pinimg.com/originals/67/d3/ec/67d3ec9d7e755d8845b9e7a277844a58.jpg);
+
+}
+
+#title{
+	height:50px;
+	min-height: 30px;
+	width:100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	font-family: calibri;
+	font-size:30px;
+	line-height: 180%;
+	background-color: black;
+	position: fixed;
+	top:0;
+	border-bottom: 0.5px solid white;
+}
+
+.deck{
+	height:20rem;
+	width:20rem;
+	
+	position: absolute;
+	float: left;
+	margin-left: 39%;
+	margin-top:170px;
+
+
+}
+
+.key{
+	float: left;
+	position: relative;
+	height:4rem;
+	width:4rem;
+	border-radius: 50%;
+	background-color:rgba(0,0,0,0.4);
+	margin:1rem;
+	box-shadow:0px 0px 4px black;
+	line-height: 245%;
+	color:white;
+	border:2px solid white;
+	font-family: calibri;
+	font-size:30px;
+	transition: all 200ms;
+	align-items: center;
+	text-align:center;
+	cursor: pointer;
+
+}
+
+.key:hover{
+	background-color: rgba(0,0,0,0.8);
+	box-shadow:0px 0px 8px black;
+	
+}
+
+.play{
+	transform: scale(1.2);
+	border:2px solid #FFAB00;
+	box-shadow:0px 0px 20px #FFAB00;
+}
+
+#credits{
+	position: fixed;
+	width: 100%;
+	bottom:0;
+	background-color: 0;
+	height: 40px;
+	border-top:1px solid white;
+	font-size: 20px;
+	line-height: 200%;
+	text-align: center;
+	color:white;
+	font-family: calibri;
+	background-color: black;
+
+}
